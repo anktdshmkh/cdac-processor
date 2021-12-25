@@ -1,0 +1,17 @@
+opcode
+#code to check memory read and write operation
+mvi   05            
+mov   c a   
+mov   d a   
+mvi   aa        
+store a     
+mvi   dd   
+mov   b a   
+inc   d d   
+store b    
+dec   d d   
+load  a      
+inc   d d    
+load  b           
+hlt                             
+    

@@ -1,0 +1,19 @@
+# code for checking jump instrcutions
+mvi   02    
+mov   d a 
+#hlt                        
+dec   d d 
+dec   d d       
+inc   x a
+inc   x a
+inc   x a   
+inc   x a
+inc   x a  
+inc   x a  
+inc   x a
+inc   x a
+inc   x a
+inc   x a
+jz    01   
+jmpi  f3     
+hlt           

@@ -1,0 +1,11 @@
+opcode
+mvi   01 
+mov   d a
+mvi   02 
+mov   c a
+mvi   03 
+mov   b a
+mvi   04 
+mov   x a
+hlt      
+ 

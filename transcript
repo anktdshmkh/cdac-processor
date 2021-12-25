@@ -1,0 +1,1561 @@
+# Reading C:/Modeltech_5.5c/win32/../tcl/vsim/pref.tcl 
+#  OpenFile D:/V1/Aniket/Again/Processor/Verify/processor.mpf 
+# Loading project 
+do run.do
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/ALU.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu
+# -- Compiling architecture alu_a of alu
+# -- Compiling configuration alu_c
+# -- Loading entity alu
+# -- Loading architecture alu_a of alu
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/cntrl_unit.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity cntrl_unit
+# -- Compiling architecture cntrl_unit_a of cntrl_unit
+# -- Compiling configuration cntrl_unit_c
+# -- Loading entity cntrl_unit
+# -- Loading architecture cntrl_unit_a of cntrl_unit
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/PC_count.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_signed
+# -- Compiling entity pc_counter
+# -- Compiling architecture pc_counter_a of pc_counter
+# -- Compiling configuration pc_counter_c
+# -- Loading entity pc_counter
+# -- Loading architecture pc_counter_a of pc_counter
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/processor.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity processor
+# -- Compiling architecture processor_a of processor
+# -- Loading entity alu
+# -- Loading entity reg_bank
+# -- Loading entity cntrl_unit
+# -- Loading package std_logic_signed
+# -- Loading entity pc_counter
+# -- Compiling configuration processor_c
+# -- Loading entity processor
+# -- Loading architecture processor_a of processor
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/Reg_bank.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity reg_bank
+# -- Compiling architecture reg_bank_a of reg_bank
+# -- Compiling configuration reg_bank_c
+# -- Loading entity reg_bank
+# -- Loading architecture reg_bank_a of reg_bank
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/package.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package textio
+# -- Compiling package cpu_pack
+# -- Compiling package body cpu_pack
+# -- Loading package cpu_pack
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Verify/processor_tst.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Loading package cpu_pack
+# -- Loading package util
+# -- Compiling entity processor_tst
+# -- Compiling architecture processor_tst_a of processor_tst
+# -- Loading entity processor
+# vsim work.processor_tst(processor_tst_a) 
+# //  ModelSim SE 5.5c Jun 22 2001 
+# //
+# //  Copyright (c) Mentor Graphics Corporation, 1982-2001, All Rights Reserved.
+# //                       UNPUBLISHED, LICENSED SOFTWARE.
+# //            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+# //          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS.
+# //
+# //  Copyright (c) Model Technology Incorporated 1990-2001, All Rights Reserved.
+# //
+# Loading C:/Modeltech_5.5c/win32/../std.standard
+# Loading C:/Modeltech_5.5c/win32/../ieee.std_logic_1164(body)
+# Loading C:/Modeltech_5.5c/win32/../ieee.std_logic_arith(body)
+# Loading C:/Modeltech_5.5c/win32/../ieee.std_logic_unsigned(body)
+# Loading C:/Modeltech_5.5c/win32/../std.textio(body)
+# Loading C:/Modeltech_5.5c/win32/../ieee.std_logic_textio(body)
+# Loading processor_lib.cpu_pack(body)
+# Loading C:/Modeltech_5.5c/win32/../modelsim_lib.util(body)
+# Loading processor_lib.processor_tst(processor_tst_a)
+# Loading C:/Modeltech_5.5c/win32/../ieee.std_logic_signed(body)
+# Loading processor_lib.processor(processor_a)
+# Loading processor_lib.alu(alu_a)
+# Loading processor_lib.reg_bank(reg_bank_a)
+# Loading processor_lib.cntrl_unit(cntrl_unit_a)
+# Loading processor_lib.pc_counter(pc_counter_a)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/pc_unit_u3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/pc_unit_u3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/pc_unit_u3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/alu_u0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/alu_u0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/alu_u0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/alu_u0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/alu_u0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/alu_u0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/alu_u0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /processor_tst/processor_u/alu_u0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /processor_tst/processor_u/cntr_unit_u2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /processor_tst/processor_u/alu_u0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /processor_tst/processor_u/alu_u0
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 00000000 (00h)
+# Value of reg. C 00000000 (00h)
+# Value of reg. D 00000000 (00h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+# Value of reg. A 10000000 (80h)
+# Value of reg. B 00000000 (00h)
+# Value of reg. C 00000000 (00h)
+# Value of reg. D 00000000 (00h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+# Value of reg. A 10000000 (80h)
+# Value of reg. B 10000000 (80h)
+# Value of reg. C 00000000 (00h)
+# Value of reg. D 00000000 (00h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+# Value of reg. A 00001001 (09h)
+# Value of reg. B 10000000 (80h)
+# Value of reg. C 00000000 (00h)
+# Value of reg. D 00000000 (00h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+# Value of reg. A 00001001 (09h)
+# Value of reg. B 10000000 (80h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00000000 (00h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 10000000 (80h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00000000 (00h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 10000000 (80h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+# Value of reg. A 00010001 (11h)
+# Value of reg. B 10000000 (80h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+# Value of reg. A 00010001 (11h)
+# Value of reg. B 10000000 (80h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00010001 (11h)
+# Status of Zero Flag Register 0 ('0')
+# 
+# Value of reg. A 00010001 (11h)
+# Value of reg. B 10000000 (80h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   10000000 (80h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00010001 (11h)
+# Value of reg. B 10000000 (80h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00001001 (09h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00010001 (11h)
+# Value of reg. B 10000000 (80h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00010001 (11h)
+# Value of reg. B 10000000 (80h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00100010 (22h)
+# Value of reg. B 10000000 (80h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00100010 (22h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00100010 (22h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00100010 (22h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00100010 (22h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00100011 (23h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00100010 (22h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00100010 (22h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00100010 (22h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   10100010 (A2h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00100010 (22h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00101011 (2Bh)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00100010 (22h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00000001 (01h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   10100010 (A2h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00101011 (2Bh)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000001 (01h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000001 (01h)
+# Value of reg. B 10100011 (A3h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000001 (01h)
+# Value of reg. B 10100011 (A3h)
+# Value of reg. C 00101100 (2Ch)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000001 (01h)
+# Value of reg. B 10100011 (A3h)
+# Value of reg. C 00101100 (2Ch)
+# Value of reg. D 00110011 (33h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000001 (01h)
+# Value of reg. B 10100011 (A3h)
+# Value of reg. C 00101100 (2Ch)
+# Value of reg. D 00110011 (33h)
+# Value at Xout   00000010 (02h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000001 (01h)
+# Value of reg. B 10100011 (A3h)
+# Value of reg. C 00101100 (2Ch)
+# Value of reg. D 00110011 (33h)
+# Value at Xout   00000001 (01h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000001 (01h)
+# Value of reg. B 10100011 (A3h)
+# Value of reg. C 00101100 (2Ch)
+# Value of reg. D 00110011 (33h)
+# Value at Xout   10100011 (A3h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000001 (01h)
+# Value of reg. B 10100011 (A3h)
+# Value of reg. C 00101100 (2Ch)
+# Value of reg. D 00110011 (33h)
+# Value at Xout   00101100 (2Ch)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000001 (01h)
+# Value of reg. B 10100011 (A3h)
+# Value of reg. C 00101100 (2Ch)
+# Value of reg. D 00110011 (33h)
+# Value at Xout   00110011 (33h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100011 (A3h)
+# Value of reg. C 00101100 (2Ch)
+# Value of reg. D 00110011 (33h)
+# Value at Xout   00110011 (33h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101100 (2Ch)
+# Value of reg. D 00110011 (33h)
+# Value at Xout   00110011 (33h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110011 (33h)
+# Value at Xout   00110011 (33h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00110011 (33h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   10100010 (A2h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00101011 (2Bh)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A 00000000 (00h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A 00010001 (11h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00101011 (2Bh)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A 00010001 (11h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00010001 (11h)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A 00010001 (11h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00010001 (11h)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A 00001001 (09h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00010001 (11h)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A 00001001 (09h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00110010 (32h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 10100010 (A2h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 00010001 (11h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 00010001 (11h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00010001 (11h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 00010001 (11h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00100000 (20h)
+# Value at Xout   00010001 (11h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 00010001 (11h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00100000 (20h)
+# Value at Xout   00100000 (20h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 00010001 (11h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00100000 (20h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 00010001 (11h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 00010001 (11h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 00010001 (11h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 00010001 (11h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 00010001 (11h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 00010001 (11h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 00010001 (11h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 00010001 (11h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 00010001 (11h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A 00010000 (10h)
+# Value of reg. B 00010001 (11h)
+# Value of reg. C 00001001 (09h)
+# Value of reg. D 00010000 (10h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+quit -sim
+vsim
+# vsim -sdftyp /processor_U=D:/V1/Aniket/Again/Processor/Synth/edif/processor_timesim.sdf work.processor_tst(processor_tst_a) 
+# Loading C:/Modeltech_5.5c/win32/../std.standard
+# Loading C:/Modeltech_5.5c/win32/../ieee.std_logic_1164(body)
+# Loading C:/Modeltech_5.5c/win32/../ieee.std_logic_arith(body)
+# Loading C:/Modeltech_5.5c/win32/../ieee.std_logic_unsigned(body)
+# Loading C:/Modeltech_5.5c/win32/../std.textio(body)
+# Loading C:/Modeltech_5.5c/win32/../ieee.std_logic_textio(body)
+# Loading processor_lib.cpu_pack(body)
+# Loading C:/Modeltech_5.5c/win32/../modelsim_lib.util(body)
+# Loading processor_lib.processor_tst(processor_tst_a)
+# Loading D:/V1/Aniket/Again/Processor/Synth/edif/processor_timesim.sdf
+# Loading C:/Modeltech_5.5c/win32/../ieee.std_logic_signed(body)
+# Loading processor_lib.processor(processor_a)
+# Loading processor_lib.alu(alu_a)
+# Loading processor_lib.reg_bank(reg_bank_a)
+# Loading processor_lib.cntrl_unit(cntrl_unit_a)
+# Loading processor_lib.pc_counter(pc_counter_a)
+# ERROR: D:/V1/Aniket/Again/Processor/Synth/edif/processor_timesim.sdf(13): Failed to find INSTANCE '/processor_tst/processor_u/Reg_out2_5_CEINV_0'
+# ERROR: D:/V1/Aniket/Again/Processor/Synth/edif/processor_timesim.sdf(21): Failed to find INSTANCE '/processor_tst/processor_u/Reg_out2_5_CLKINV_1'
+# ERROR: D:/V1/Aniket/Again/Processor/Synth/edif/processor_timesim.sdf(29): Failed to find INSTANCE '/processor_tst/processor_u/Reg_out2_5_YUSED'
+# ERROR: D:/V1/Aniket/Again/Processor/Synth/edif/processor_timesim.sdf(37): Failed to find INSTANCE '/processor_tst/processor_u/Reg_out2_5_XUSED'
+# ERROR: D:/V1/Aniket/Again/Processor/Synth/edif/processor_timesim.sdf(45): Failed to find INSTANCE '/processor_tst/processor_u/Reg_out2_5_DXMUX_2'
+# WARNING: D:/V1/Aniket/Again/Processor/Synth/edif/processor_timesim.sdf: This file is probably applied to the wrong instance.
+# WARNING: D:/V1/Aniket/Again/Processor/Synth/edif/processor_timesim.sdf: Ignoring subsequent missing instances from this file.
+# WARNING: D:/V1/Aniket/Again/Processor/Synth/edif/processor_timesim.sdf: Failed to find any of the 1109 instances from this file.
+# Error loading design
+vsim
+# Load canceled
+project compileall
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/ALU.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu
+# -- Compiling architecture alu_a of alu
+# -- Compiling configuration alu_c
+# -- Loading entity alu
+# -- Loading architecture alu_a of alu
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/cntrl_unit.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity cntrl_unit
+# -- Compiling architecture cntrl_unit_a of cntrl_unit
+# -- Compiling configuration cntrl_unit_c
+# -- Loading entity cntrl_unit
+# -- Loading architecture cntrl_unit_a of cntrl_unit
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/PC_count.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_signed
+# -- Compiling entity pc_counter
+# -- Compiling architecture pc_counter_a of pc_counter
+# -- Compiling configuration pc_counter_c
+# -- Loading entity pc_counter
+# -- Loading architecture pc_counter_a of pc_counter
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/processor.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity processor
+# -- Compiling architecture processor_a of processor
+# -- Loading entity alu
+# -- Loading entity reg_bank
+# -- Loading entity cntrl_unit
+# -- Loading package std_logic_signed
+# -- Loading entity pc_counter
+# -- Compiling configuration processor_c
+# -- Loading entity processor
+# -- Loading architecture processor_a of processor
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/Reg_bank.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity reg_bank
+# -- Compiling architecture reg_bank_a of reg_bank
+# -- Compiling configuration reg_bank_c
+# -- Loading entity reg_bank
+# -- Loading architecture reg_bank_a of reg_bank
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/package.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package textio
+# -- Compiling package cpu_pack
+# -- Compiling package body cpu_pack
+# -- Loading package cpu_pack
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Verify/processor_tst.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Loading package cpu_pack
+# -- Loading package util
+# -- Compiling entity processor_tst
+# -- Compiling architecture processor_tst_a of processor_tst
+# -- Loading entity processor
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Synth/edif/processor_timesim.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Compiling entity roc
+# -- Compiling architecture roc_v of roc
+# -- Compiling entity toc
+# -- Compiling architecture toc_v of toc
+# -- Loading package vcomponents
+# -- Loading package textio
+# -- Loading package vital_primitives
+# -- Loading package vpackage
+# -- Compiling entity processor
+# -- Compiling architecture structure of processor
+# -- Loading entity x_zero
+# -- Loading entity x_buf_pp
+# -- Loading entity x_inv
+# -- Loading entity x_tri_pp
+# -- Loading entity x_bufgmux
+# -- Loading entity x_mux2
+# -- Loading entity x_lut4
+# -- Loading entity x_or2
+# -- Loading entity x_ff
+# -- Loading entity x_and2
+# -- Loading entity x_xor2
+# -- Loading entity x_one
+# -- Loading entity roc
+# -- Loading entity toc
+vsim
+# vsim -sdftyp /processor_U=D:/V1/Aniket/Again/Processor/Synth/edif/processor_timesim.sdf work.processor_tst(processor_tst_a) 
+# Loading C:/Modeltech_5.5c/win32/../std.standard
+# ERROR: Recompile processor_lib.processor_tst(processor_tst_a) because processor_lib.processor changed.
+# Error loading design
+project compileall
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/ALU.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu
+# -- Compiling architecture alu_a of alu
+# -- Compiling configuration alu_c
+# -- Loading entity alu
+# -- Loading architecture alu_a of alu
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/cntrl_unit.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity cntrl_unit
+# -- Compiling architecture cntrl_unit_a of cntrl_unit
+# -- Compiling configuration cntrl_unit_c
+# -- Loading entity cntrl_unit
+# -- Loading architecture cntrl_unit_a of cntrl_unit
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/PC_count.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_signed
+# -- Compiling entity pc_counter
+# -- Compiling architecture pc_counter_a of pc_counter
+# -- Compiling configuration pc_counter_c
+# -- Loading entity pc_counter
+# -- Loading architecture pc_counter_a of pc_counter
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/processor.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity processor
+# -- Compiling architecture processor_a of processor
+# -- Loading entity alu
+# -- Loading entity reg_bank
+# -- Loading entity cntrl_unit
+# -- Loading package std_logic_signed
+# -- Loading entity pc_counter
+# -- Compiling configuration processor_c
+# -- Loading entity processor
+# -- Loading architecture processor_a of processor
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/Reg_bank.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity reg_bank
+# -- Compiling architecture reg_bank_a of reg_bank
+# -- Compiling configuration reg_bank_c
+# -- Loading entity reg_bank
+# -- Loading architecture reg_bank_a of reg_bank
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Src/package.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package textio
+# -- Compiling package cpu_pack
+# -- Compiling package body cpu_pack
+# -- Loading package cpu_pack
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Verify/processor_tst.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Loading package cpu_pack
+# -- Loading package util
+# -- Compiling entity processor_tst
+# -- Compiling architecture processor_tst_a of processor_tst
+# -- Loading entity processor
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Synth/edif/processor_timesim.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Compiling entity roc
+# -- Compiling architecture roc_v of roc
+# -- Compiling entity toc
+# -- Compiling architecture toc_v of toc
+# -- Loading package vcomponents
+# -- Loading package textio
+# -- Loading package vital_primitives
+# -- Loading package vpackage
+# -- Compiling entity processor
+# -- Compiling architecture structure of processor
+# -- Loading entity x_zero
+# -- Loading entity x_buf_pp
+# -- Loading entity x_inv
+# -- Loading entity x_tri_pp
+# -- Loading entity x_bufgmux
+# -- Loading entity x_mux2
+# -- Loading entity x_lut4
+# -- Loading entity x_or2
+# -- Loading entity x_ff
+# -- Loading entity x_and2
+# -- Loading entity x_xor2
+# -- Loading entity x_one
+# -- Loading entity roc
+# -- Loading entity toc
+vsim
+# vsim -sdftyp /processor_U=D:/V1/Aniket/Again/Processor/Synth/edif/processor_timesim.sdf work.processor_tst(processor_tst_a) 
+# Loading C:/Modeltech_5.5c/win32/../std.standard
+# ERROR: Recompile processor_lib.processor_tst(processor_tst_a) because processor_lib.processor changed.
+# Error loading design
+# Error - cannot read work/_info: No such file or directory
+vcom -work work -93 -explicit D:/V1/Aniket/Again/Processor/Verify/processor_tst.vhd
+# Model Technology ModelSim SE vcom 5.5c Compiler 2001.07 Jun 22 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Loading package cpu_pack
+# -- Loading package util
+# -- Compiling entity processor_tst
+# -- Compiling architecture processor_tst_a of processor_tst
+# -- Loading package vital_timing
+# -- Loading package vcomponents
+# -- Loading package vital_primitives
+# -- Loading package vpackage
+# -- Loading entity processor
+vsim
+# vsim -sdftyp /processor_U=D:/V1/Aniket/Again/Processor/Synth/edif/processor_timesim.sdf work.processor_tst(processor_tst_a) 
+# Loading C:/Modeltech_5.5c/win32/../std.standard
+# Loading C:/Modeltech_5.5c/win32/../ieee.std_logic_1164(body)
+# Loading C:/Modeltech_5.5c/win32/../ieee.std_logic_arith(body)
+# Loading C:/Modeltech_5.5c/win32/../ieee.std_logic_unsigned(body)
+# Loading C:/Modeltech_5.5c/win32/../std.textio(body)
+# Loading C:/Modeltech_5.5c/win32/../ieee.std_logic_textio(body)
+# Loading processor_lib.cpu_pack(body)
+# Loading C:/Modeltech_5.5c/win32/../modelsim_lib.util(body)
+# Loading C:/Modeltech_5.5c/win32/../ieee.vital_timing(body)
+# Loading c:/libraries/simprim.vcomponents
+# Loading C:/Modeltech_5.5c/win32/../ieee.vital_primitives(body)
+# Loading c:/libraries/simprim.vpackage(body)
+# Loading processor_lib.processor_tst(processor_tst_a)
+# Loading D:/V1/Aniket/Again/Processor/Synth/edif/processor_timesim.sdf
+# Loading processor_lib.processor(structure)
+# ** Warning: Time unit 'ps' is less than the simulator resolution set by '-t'.
+#    Time: 0 ns  Iteration: 0  Region: /processor_tst/processor_u
+# Loading c:/libraries/simprim.x_zero(x_zero_v)
+# Loading c:/libraries/simprim.x_buf_pp(x_buf_pp_v)
+# Loading c:/libraries/simprim.x_inv(x_inv_v)
+# Loading c:/libraries/simprim.x_tri_pp(x_tri_pp_v)
+# Loading c:/libraries/simprim.x_bufgmux(x_bufgmux_v)
+# Loading c:/libraries/simprim.x_mux2(x_mux2_v)
+# Loading c:/libraries/simprim.x_lut4(x_lut4_v)
+# Loading c:/libraries/simprim.x_or2(x_or2_v)
+# Loading c:/libraries/simprim.x_ff(x_ff_v)
+# Loading c:/libraries/simprim.x_and2(x_and2_v)
+# Loading c:/libraries/simprim.x_xor2(x_xor2_v)
+# Loading c:/libraries/simprim.x_one(x_one_v)
+# Loading processor_lib.roc(roc_v)
+# Loading processor_lib.toc(toc_v)
+add wave *
+run
+# ERROR init_signal_spy : Object "/processor_tst/processor_U/flag_CE" does not exist in design.
+# ERROR init_signal_spy : Object "/processor_tst/processor_U/reg_Bank_U1/regD" does not exist in design.
+# ERROR init_signal_spy : Object "/processor_tst/processor_U/reg_Bank_U1/regC" does not exist in design.
+# ERROR init_signal_spy : Object "/processor_tst/processor_U/reg_Bank_U1/regB" does not exist in design.
+# ERROR init_signal_spy : Object "/processor_tst/processor_U/reg_Bank_U1/regA" does not exist in design.
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00010001 (11h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   10000000 (80h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00001001 (09h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00100011 (23h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00100010 (22h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   10100010 (A2h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00101011 (2Bh)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00000001 (01h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   10100010 (A2h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00101011 (2Bh)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00000010 (02h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00000001 (01h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   10100011 (A3h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00101100 (2Ch)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110011 (33h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110011 (33h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110011 (33h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110011 (33h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110011 (33h)
+# Status of Zero Flag Register 0 ('0')
+# 
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00000000 (00h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   10100010 (A2h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00101011 (2Bh)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00110010 (32h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00010001 (11h)
+# Status of Zero Flag Register 1 ('1')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00010001 (11h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00100000 (20h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00100000 (20h)
+# Status of Zero Flag Register 0 ('0')
+# 
+run
+# Value of reg. A UUUUUUUU (h)
+# Value of reg. B UUUUUUUU (h)
+# Value of reg. C UUUUUUUU (h)
+# Value of reg. D UUUUUUUU (h)
+# Value at Xout   00010000 (10h)
+# Status of Zero Flag Register 0 ('0')
+# 
+destroy .wave
+quit -sim
+quit -f

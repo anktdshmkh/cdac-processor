@@ -1,0 +1,9 @@
+# multiplication code
+mvi   01  
+mov   b x 
+cmp   b a 
+jz    02    
+jmpi  fd    
+mov   d b 
+store d    
+jmpi  fa  

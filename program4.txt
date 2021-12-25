@@ -1,0 +1,19 @@
+opcode 
+mvi   05   
+mov   c a   
+mov   d a   
+mvi   aa    
+mov   b a     
+store a   
+inc   d d 
+store b  
+jmpi  02  
+load  a   
+inc   a a 
+mov   x a  
+hlt       
+  
+  
+     
+
+ 

@@ -1,0 +1,67 @@
+insruction          
+#code for checking all instructions     
+mvi   80              
+mov   b a            
+mvi   09              
+mov   c a     
+mvi   10          
+mov   d a             
+mvi   11          
+mov   x a             
+mov   x b             
+mov   x c	 
+mov   x d             
+store a   
+add   a a  
+add   b b                                 
+add   c c 
+add   d d 
+add   x x     
+mov   x a    
+mov   x b  
+mov   x c 
+mov   x d 
+sub   a a  
+sub   b b                                 
+sub   c c 
+sub   d d 
+sub   x x    
+mov   x a   
+mov   x b   
+mov   x c 
+mov   x d  
+inc   a a  
+inc   b b   
+inc   c c   
+inc   d d  
+inc   x x   
+mov   x a    
+mov   x b    
+mov   x c   
+mov   x d 
+dec   a a   
+dec   b b   
+dec   c c   
+dec   d d   
+dec   x x   
+mov   x a     
+mov   x b    
+mov   x c  
+mov   x d  
+mvi   11     
+mov   c a    
+cmp   c     
+mvi   09    
+mov   c a    
+mvi   10    
+mov   d a   
+load  b       
+mov   x b    
+sl    d d   
+mov   x d    
+sr    d d     
+mov   x d    
+hlt      
+mov   x x   
+inc   x x   
+dec   x x       
